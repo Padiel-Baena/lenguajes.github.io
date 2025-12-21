@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA EL PILAR</title>
+    <style>
+        header, footer{
+            text-align: center;
+            background-color: hsl(224, 97%, 71%);
+            color : #ff0000 ;
+            padding: 15px;
+        }
+        nav {
+            text-align: center;
+            background-color :rgb(53, 11, 241);
+            padding: 10px;
+        }
+        nav a {
+            color : #81e203;
+            margin: 0 15px;
+        }
+        body{
+            background-color: #00dce4;
+        }
+        h2 {
+            background-color: aqua;
+            text-align: center;
+        }
+        h3{
+            background-color: aquamarine;
+            text-align: center;
+        }
+        h4{
+            background-color: cadetblue;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            background-color: cyan;
+        }
+        ol{
+            text-align: center;
+            background-color: darkcyan;
+        }
+        ul{
+            text-align: center;
+            background-color: darkturquoise;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ff00ff;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #ff00c8;
+            color: rgb(0, 243, 93);
+        }
+        tr:nth-child(even) {
+            background-color: #ff00ea;
+        }
+        /* Formulario */
+        form {
+            background-color: #ff389b;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, select, textarea, button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #a5003f;
+        }
+        button {
+            background-color: #4a36ff;
+            color: rgb(0, 0, 0);
+            border: none;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e237a9;
+        }
+        video, audio {
+            display: block;
+            margin: 10px auto;
+        }
+        footer {
+            margin-top: 30px;
+        }
+        .container-imagenes {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .container-imagenes img {
+            flex: 1;
+            min-width: 300px;
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>TIENDA EL PILAR</h1>
+</header>
+<nav>
+    <a href="#Tienda">¿Quienes somos?</a>
+    <a href="#Horario">Nuestro horario</a>
+    <a href="#Productos">Productos</a>
+    <a href="#Formulario">Formulario</a>
+    <a href="https://www.instagram.com/tiendaelpilar.es/">Nuestro Instagram</a>
+    <a href="#Multimedia">Multimedia</a>
+</nav>
+<section id="Tienda">
+    <h2>¿Quienes somos?</h2>
+    Tienda el PIlar es una pequeña tienda ubicada en Castellón de la Plana,nos dedicamos a la venta de productos alimenticios de calidad.Nos centramos en la atencion y trato al cliente, ademas de garantizar la calidad de los productos y facilitar el trato a los clientes, ya que tenemos un numero habilitado para los clientes, tambien repartimos a domicilio.
+    <img style="width:100%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D533920658740341&f=1&nofb=1&ipt=cd3372e1542dd156624fcd811d440ddb0ad65ba85459eaa3ee129fa99c0b3433">
+</section>
+<section id="Horario">
+    <h2>Horario</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Dia</th>
+            <th>Mañana</th>
+            <th>Tarde</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Lunes</td>
+            <td>9:30-14:00</td>
+            <td>17:00-20:00</td>
+        </tr>
+        <tr>
+            <td>Martes</td>
+            <td>9:30-14:00</td>
+            <td>17:00-20:00</td>
+        </tr>
+        <tr>
+            <td>Miercoles</td>
+            <td>9:30-14:00</td>
+            <td>17:00-20:00</td>
+        </tr>
+        <tr>
+            <td>Jueves</td>
+            <td>9:30-14:00</td>
+            <td>17:00-20:00</td>
+        </tr>
+        <tr>
+            <td>Viernes</td>
+            <td>9:30-14:00</td>
+            <td>17:00-20:00</td>
+        </tr>
+        <tr>
+            <td>Sabado</td>
+            <td>9:30-14:00</td>
+            <td>Cerrrado</td>
+        </tr>
+        <tr>
+            <td>Domingo</td>
+            <td>Cerrado</td>
+            <td>Cerrado</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+<section id="Productos">
+    <h2>Productos</h2>
+    <article>
+        <h3>Embutidos</h3>
+        <h4>Jamón Serrano</h4>
+        <p>Trabajamos con 3 categorias distintas de lo que se conoce como jamón serrano.
+            Por un lado tenemoes el jamon de trevelez, en este caso, los padres son duroc, duroc es un tipo de cerdo blanco, es decir, no tiene raza buena.
+            Despues tenemos el 50% iberico, en este caso, uno de los padres es duroc, y el otro es iberico, por eso se le llama 50%.
+            El ultimo es el de bellota, que los dos padres son ibericos, es de la mejor calidad.
+            Lista precios orden descendente
+        <ol>
+            <li>Jamon de bellota 200€/Kg</li>
+            <li>Jamon 50% iberico 95€/Kg</li>
+            <li>Jamon de trevelez 30€/Kg</li>
+        </ol>
+        <div class="container-imagenes">
+        <img style="width:100%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.h9sglxwKl0GOi13smj8a6wHaE7%3Fpid%3DApi%26ucfimg%3D1&f=1&ipt=90c99b24dc8bcf6f1ab100eb7ad9e820b6f26fd4b92c81f1bcf23b3a223d21fa&ipo=images">
+        <img style="width:100%"src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.pRz3ETZIggQ08CFI89hH4AHaId%3Fcb%3Ducfimg2%26pid%3DApi%26ucfimg%3D1&f=1&ipt=54c9bf054cbc0a46b80e4699e74a547150d5c62acc5c8f9d0eaf4fa81c457b0e">
+        <img style="width:100%"src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic2.ideal.es%2Fwww%2Fmultimedia%2F201710%2F18%2Fmedia%2Fcortadas%2Fjamon-kdSH-U401057881998b8D-624x385%40Ideal.jpg&f=1&nofb=1&ipt=726bf018474bb40a6b9fe8310549f68a794df8b85578b387ea447d6a0597a3eb">
+        </div>
+    </article>
+    <h2>Quesos</h2>
+    <article>
+        <h3>Curados</h3>
+        <h4>Manchego trufado</h4>
+        <p>Esta muy bueno</p>
+        <h3>Semicurados</h3>
+        <h4>Las terceras</h4>
+        <p>Esta bien</p>
+    </article>
+    <h2>Bebidas</h2>
+    <ul>
+        <li>Whisky</li>
+        <li>Ron</li>
+        <li>Vermout</li>
+        <li>Vino blanco</li>
+        <li>Vino tinto</li>
+        <li>Champagne</li>
+    </ul>
+    <p>Entre otras</p>
+
+</section>
+<section id="Formulario">
+    <h2>Formulario de Registro</h2>
+    <form action="#" method="post">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="0" max="120">
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe tus comentarios..."></textarea>
+
+        <label>
+            <input type="checkbox" name="boletin" value="sí">
+            Deseo recibir el boletín informativo.
+        </label>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+<section id="Multimedia">
+    <h3>Vídeo:</h3>
+    <video controls width="320">
+        <source src="/home/pabbaetel/Desktop/lenguaje/media/queso.mp4" type="video/mp4">
+        Tu navegador no soporta vídeo.
+    </video>
+    <h3>Audio:</h3>
+    <audio controls>
+        <source src="/home/pabbaetel/Desktop/lenguaje/media/brother.m4a" type="audio/mpeg">
+        Tu navegador no soporta audio.
+    </audio>
+</section>
+</body>
+</html>
